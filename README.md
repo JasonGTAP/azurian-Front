@@ -1,27 +1,31 @@
-# AzurianFront
+Proyecto Azurian Front 🅰️
+Este es un proyecto de angular que consume una api de registros creada con spring boot
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0.
+Requisitos previos 📋
+Asegúrate de tener instalado lo siguiente antes de comenzar:
 
-## Development server
+Node.js y npm (Node Package Manager): Descarga aquí
+Angular CLI: Instálalo globalmente ejecutando npm install -g @angular/cli
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Instalación 💻
+Sigue estos pasos para configurar el proyecto en tu máquina local:
 
-## Code scaffolding
+Clona este repositorio ejecutando el siguiente comando en tu terminal:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+https://github.com/JasonGTAP/azurian-front.git
 
-## Build
+Navega al directorio del proyecto:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Instala las dependencias del proyecto:
 
-## Running unit tests
+npm install
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+Desarrollo local 🚀
+Una vez que hayas instalado todas las dependencias, puedes ejecutar el servidor de desarrollo de Angular. Este comando compilará la aplicación y abrirá una ventana del navegador predeterminado para mostrarla. Además, cualquier cambio que realices en los archivos se recargará automáticamente en el navegador.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Ejecuta el siguiente comando:
 
-## Further help
+ng serve -o
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Navega a http://localhost:4200/. ya que nuestro back esta habilitado solamente para consumo en localhost:4200 por defecto muy importante.
